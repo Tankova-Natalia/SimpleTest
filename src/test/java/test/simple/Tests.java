@@ -2,10 +2,11 @@ package test.simple;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import steps.Steps;
 
 public class Tests {
     @Test
     public void test(){
-        Assertions.assertEquals(2,2,"2 не равно 2");
+        Steps.step(2);
     }
 }
